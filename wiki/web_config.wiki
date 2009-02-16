@@ -1,3 +1,4 @@
+#labels Featured
 = *web.config配置详细说明* = 
 
 只有通过正确的配置web.config文件，svnaccount系统才能正常运转起来。目前的配置项中只有一项不需配置，其他都是必需配置项。
