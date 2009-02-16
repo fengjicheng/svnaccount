@@ -18,7 +18,10 @@
 <add key="AnaloguePWD" value="QGqIuSEuGdBnSgkZmJhS6g==" />
 
 ---
-注：绑定所安装的windows服务器的管理员帐户信息。以上所示表示：该服务器存在一个全称为svn的管理员帐户,且密码是：svnservice。因系统内部需要直接操作服务器内部用户帐户（windows认证模式）以及运行相关exe应用辅助工具(VisualSVN Server自身认证，Apache创建修改密码工具)。
+注：绑定所安装的windows服务器的管理员帐户信息。
+以上所示表示：该服务器存在一个全称为svn的管理员帐户,且密码是：svnservice。
+因系统内部需要直接操作服务器内部用户帐户（windows认证模式）以及运行相关exe应用辅助工具
+(VisualSVN Server自身认证，Apache创建修改密码工具)。
 
 
 <!--//不允许在线修改的用户名-->
