@@ -1,0 +1,41 @@
+= *web.config配置详细说明* = 
+
+只有通过正确的配置web.config文件，svnaccount系统才能正常运转起来。目前的配置项中只有一项不需配置，其他都是必需配置项。
+
+
+= Introduction =
+
+
+
+
+= Details =
+{{{
+
+<!--// 设置系统管理员模拟帐号 -->
+<add key="AnalogueID" value="svn" />
+<!--// 设置系统管理员模拟帐号的加密密码 -->
+<add key="AnaloguePWD" value="QcTokU5sm++2h0nYE5NVKg==" />
+
+
+<!--//不允许在线修改的用户名-->
+<add key="DisabledModifyName" value="svn,administrator" />
+
+<!--//SVN系统服务名称-->
+<add key="ApacheService" value="VisualSVNServer" />
+
+
+<!--//服务配置文件地址-->
+<add key="SvnServerConf" value="C:\\Program Files\\VisualSVN Server\\conf\\httpd.conf"/>
+
+
+<!--//认证测试地址-->
+<add key="AuthURL4Pass" value="https://127.0.0.1/svn/"/>
+
+
+<!--//密码修改工具地址-->
+<add key="htpasswdPath" value="C:\\Program Files\\VisualSVN Server\\htdocs\bin\\htpasswd.exe" />
+
+<!--//自定义认证密码文件地址-->
+<add key="htpasswdFile" value="D:\\Repositories\\htpasswd"/>
+
+}}}
